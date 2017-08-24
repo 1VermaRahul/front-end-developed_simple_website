@@ -1,0 +1,36 @@
+.outerbox{
+	width: 1000px;
+	overflow: hidden;
+}
+.slides{
+	position: relative;
+	width: 3000px;
+	animation-name:star;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+.slides img{
+	float: left;
+}
+
+@keyframes star{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	26%{
+		left: -1000px;
+	}
+	53%{
+		left: -1000px;
+	}
+	60%{
+		left: -2000px;
+	}
+	80%{
+		left: -2000px;
+	}
+	
+}
