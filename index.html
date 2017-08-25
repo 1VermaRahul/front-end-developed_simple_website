@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>this is webpage</title>
+		<meta name="viewport" content="width=divice-width,initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="slide.css">
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+				border:0;
+			}
+			
+			body{
+				background: #f0f0f0;
+				font: 14px/20px Arial, san-sarif;
+				color: #555;
+				margin: 0;
+			}
+			h1{
+				text-align: center;
+				font-size: 180%;
+				padding: 5% 0;
+				line-height: 120%;
+			}
+			h2{
+				text-decoration: underline;
+				padding-left: 2%;
+				line-height: 280%;
+			}
+			h3{
+				padding: 5% 0;
+				line-height: 110%;
+			}
+			p{
+				padding: 1%;
+			}
+			img{
+				text-align: center;
+				max-width: 100%;
+				height: auto;
+				width: auto;
+			}
+			a{
+				color: #fff;
+				text-decoration: none;
+				font-weight: bold;
+			}
+			a:hover{
+				color: #fff;
+				text-decoration: underline;
+				font-weight: bold;
+			}
+			header{
+				background: #405580;
+				width: 100%;
+				height: 86px;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 100;
+				opacity: 0.90;
+			}
+			#logo{
+				margin: 20px;
+				float: left;
+				width: 200px;
+				height: 60px;
+				background: url(logo.jpg);
+			}
+			nav{
+				float: right;
+				padding: 35px 20px 20px 0;
+			}
+			#menu-icon{
+				display: hidden;
+				width: 40px;
+				height: 40px;
+
+			}
+			a:hover#menu-icon{
+				border-radius: 4px 4px 0 0;
+			}
+			ul{
+				list-style: none;
+			}
+			nav ul li{
+				display: inline-block;
+				float: left;
+				padding: 10px;
+			}
+			.current{
+				color: #fff;
+				text-decoration: underline;
+			}
+			#doc{
+				float: left;
+				margin: 20px auto;
+				/*width: 50%;*/
+				height: auto;
+				padding: 4%;
+			}
+			
+			#reg{
+				margin-top: 20px
+			}
+
+			section{
+				width: 29%;
+				float: left;
+				margin: 2% 2%;
+				text-align: center;
+			}
+			.clear{
+				clear: both;
+			}
+			article{
+				float: left;
+				margin: 0 auto;
+				width: 50%;
+				height: auto;
+				padding: 4%;
+			}
+			aside{
+				float: right;
+				margin: 0 auto;
+				width: 35%;
+				height: auto;
+				padding: 2%;
+			}
+			footer{
+				background: #333333;
+				width: 100%;
+				overflow: hidden;
+				opacity: 0.90;
+			}
+			footer p,footer h3{
+				color: #FFF;
+			}
+			footer p a{
+				color: #FFF;
+				text-decoration: none;
+			}
+			ul.social li{
+				display: inline;
+			}
+			ul.social li img{
+				height: 50px;
+			}
+			footer.second{
+				border-top: 1px solid #4D4E50;
+				background-color: #333333;
+				max-height: 50px;
+				text-align: center;
+				opacity: 0.95;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<header>
+			<a href="#" id="logo"> <img src="logo1.png"> </a>
+			<nav>
+			<a href="#" id="menu-icon"></a>
+				<ul>
+					<li><a href="" class="current">HOME</a></li>
+					<li><a href="">locality</a></li>
+					<li><a href="">rooms</a></li>
+					<li><a href="">signup</a></li>
+					<li><a href="">About us</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		
+
+		<div id="doc">
+			<div class="outerbox">
+				<div class="slides">
+					<img src="hostel1.jpg"/>
+					<img src="hostel2.jpg"/>
+					<img src="hostel3.jpg"/>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div id="reg">
+			<h1>Are you looking for room on rent??</h1>
+			<a href="" style="color=red">register here</a>
+			<h1>Want to give room on rent</h1>
+			<a href="">Register here</a>
+		</div>
+		<section>
+			<img src="farms.png"/>
+			<h1>Best farms around!</h1>
+			<p>find here the best farms and make your dream happen.We providing here the our best farms around you. Have a look.</p>
+		</section>
+		<section>
+			<img src="hotel1.png"/>
+			<h1>Best hotels around!</h1>
+			<p>find here the best hotels and make your dream happen.We providing here the our best hotels around you. Have a look.</p>
+		</section>
+		<section>
+			<img src="check.png"/>
+			<h1>Check property-Free</h1>
+			<p>You can check your area of interest what you want farm, hotels or rooms for rent.</p>
+		</section>
+
+		<div class="clear"></div>
+		<article> <img src="hotel.jpg"> </article>
+		<aside>
+			<h2>States covered by us : </h2>
+			<ul class="area">
+				<li><h3>PUNJAB</h3></li>
+				<li><h3>RAJASTHAN</h3></li>
+				<li><h3>HARYANA</h3></li>
+				<li><h3>UTTAR-PRADESH</h3></li>
+				<li><h3>GUJRAT</h3></li>
+				<li><h3>DELHI</h3></li>
+			</ul>
+		</aside>
+		<div class="clear"></div>
+		<!-- <section> -->
+			<!-- <h1>Property dealers</h1> -->
+			<!-- <img src="pd.jpg"/> -->
+			<!-- <p>Here we have Property dealers from differnt states.You can find out any of area.</p> -->
+		<!-- </section> -->
+
+		<footer>
+			<section>
+				<h3><b>Property_Rent</b></h3><br>
+				<p>15052-222-5555</p><br>
+				<p>221 Baker street</p>
+				<p>london 335512</p>
+				<p>abc@gmail.com</p>
+			</section>
+
+			<section>
+				<h3><b>Contact With Us</b></h3><br>
+				<ul class="social">
+					<li><a href=""><img src="fb.png"></a></li>
+					<li><a href=""><img src="twt.png"></a></li>
+					<li><a href=""><img src="yt.png"></a></li>
+					<li><a href=""><img src="gp.png"></a></li>
+				</ul>
+			</section>
+
+			<section>
+				<img src="pd.png"/>
+			</section>
+		</footer>
+		<footer class="second">
+			<p>@Copyright-The companyname</p>
+		</footer>
+	</body>
+</html>
